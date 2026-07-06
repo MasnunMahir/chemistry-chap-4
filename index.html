@@ -1,0 +1,2547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Periodic Table | Interactive Chemistry</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- Loading Screen -->
+    <!-- ========================= -->
+
+    <div id="loader">
+
+        <div class="atom">
+
+            <div class="electron e1"></div>
+            <div class="electron e2"></div>
+            <div class="electron e3"></div>
+
+            <div class="nucleus"></div>
+
+        </div>
+
+        <h2>Loading Interactive Chemistry...</h2>
+
+    </div>
+
+    <!-- Progress Bar -->
+
+    <div id="progressBar"></div>
+
+    <!-- Animated Background -->
+
+    <div class="background">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+    <!-- Navigation -->
+
+   <nav>
+
+    <div class="logo">
+
+        <i class="fa-solid fa-atom"></i>
+
+        Periodic Table
+
+    </div>
+
+    <ul>
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#history">History</a></li>
+
+        <li><a href="#periodic-table">Periodic Table</a></li>
+
+        <li><a href="#properties">Properties</a></li>
+
+    </ul>
+
+</nav>
+
+    <!-- Hero -->
+
+   <section id="home" class="hero">
+
+        <div class="glass">
+
+            <h3>Class 9 Chemistry</h3>
+
+            <h1>
+
+                Master the
+
+                <span>Periodic Table</span>
+
+            </h1>
+
+            <p>
+
+                Learn every concept through animations,
+                interactive diagrams,
+                visual explanations,
+                simulations,
+                quizzes,
+                and beautiful illustrations.
+
+            </p>
+
+            <div class="buttons">
+
+                <button class="primary">
+
+                    Start Learning
+
+                </button>
+
+                <button class="secondary">
+
+                    Explore Chapter
+
+                </button>
+
+            </div>
+
+        </div>
+
+</section>
+
+<!-- ============================= -->
+<!-- Learning Objectives -->
+<!-- ============================= -->
+
+<section class="objectives">
+
+    <div class="section-title">
+
+        <p>Chapter Overview</p>
+
+        <h2>Learning Objectives</h2>
+
+    </div>
+
+    <div class="objective-grid">
+
+        <div class="objective-card">
+
+            <div class="icon">🧪</div>
+
+            <h3>History</h3>
+
+            <p>
+
+                Discover how the Periodic Table evolved from
+                Lavoisier to the modern table used today.
+
+            </p>
+
+        </div>
+
+        <div class="objective-card">
+
+            <div class="icon">⚛</div>
+
+            <h3>Electronic Configuration</h3>
+
+            <p>
+
+                Learn how electron arrangement determines
+                group, period and properties.
+
+            </p>
+
+        </div>
+
+        <div class="objective-card">
+
+            <div class="icon">📈</div>
+
+            <h3>Periodic Trends</h3>
+
+            <p>
+
+                Understand atomic radius,
+                ionization energy,
+                electronegativity,
+                metallic character and more.
+
+            </p>
+
+        </div>
+
+        <div class="objective-card">
+
+            <div class="icon">🔬</div>
+
+            <h3>Real Chemistry</h3>
+
+            <p>
+
+                Learn experiments,
+                reactions,
+                practical applications
+                and exam shortcuts.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ============================= -->
+<!-- Quick Facts -->
+<!-- ============================= -->
+
+<section class="facts">
+
+    <div class="section-title">
+
+        <p>Did You Know?</p>
+
+        <h2>Periodic Table At A Glance</h2>
+
+    </div>
+
+    <div class="facts-grid">
+
+        <div class="fact">
+
+            <h1>118</h1>
+
+            <span>Known Elements</span>
+
+        </div>
+
+        <div class="fact">
+
+            <h1>18</h1>
+
+            <span>Groups</span>
+
+        </div>
+
+        <div class="fact">
+
+            <h1>7</h1>
+
+            <span>Periods</span>
+
+        </div>
+
+        <div class="fact">
+
+            <h1>94%</h1>
+
+            <span>Elements are Metals</span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- HISTORY OF THE PERIODIC TABLE -->
+<!-- ========================================= -->
+
+<section id="history" class="history">
+
+    <div class="section-title">
+
+        <p>Evolution</p>
+
+        <h2>The Journey of the Periodic Table</h2>
+
+        <div class="section-subtitle">
+
+            The modern periodic table wasn't created in a single day. It is the result of more than a century of scientific discoveries, improvements, and brilliant ideas.
+
+        </div>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item left">
+
+            <div class="timeline-content">
+
+                <div class="year">1789</div>
+
+                <h3>Antoine Lavoisier</h3>
+
+                <p>
+
+                    The beginning of classification.
+
+                    Lavoisier grouped 33 known elements into metals and non-metals.
+
+                    This was the first organized attempt to classify elements.
+
+                </p>
+
+                <div class="extra">
+
+                    💡 Why it mattered
+
+                    Scientists finally had a logical way to organize elements instead of remembering them individually.
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item right">
+
+            <div class="timeline-content">
+
+                <div class="year">1829</div>
+
+                <h3>Döbereiner's Triads</h3>
+
+                <p>
+
+                    Groups of three elements showed similar properties.
+
+                    The middle element usually had an atomic mass close to the average of the other two.
+
+                </p>
+
+                <div class="extra">
+
+                    Example:
+
+                    Chlorine • Bromine • Iodine
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item left">
+
+            <div class="timeline-content">
+
+                <div class="year">1864</div>
+
+                <h3>Newlands' Law of Octaves</h3>
+
+                <p>
+
+                    Every eighth element displayed similar properties when elements were arranged according to increasing atomic mass.
+
+                </p>
+
+                <div class="extra">
+
+                    🎵 He compared the pattern to musical octaves.
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item right">
+
+            <div class="timeline-content">
+
+                <div class="year">1869</div>
+
+                <h3>Mendeleev's Periodic Table</h3>
+
+                <p>
+
+                    Mendeleev arranged elements by atomic mass while keeping similar properties in the same column.
+
+                    He even left empty spaces for undiscovered elements.
+
+                </p>
+
+                <div class="extra">
+
+                    ⭐ His predictions later proved amazingly accurate.
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item left">
+
+            <div class="timeline-content">
+
+                <div class="year">1913</div>
+
+                <h3>Henry Moseley</h3>
+
+                <p>
+
+                    Moseley discovered that atomic number—not atomic mass—is the true basis of the periodic table.
+
+                    This solved several problems in Mendeleev's arrangement.
+
+                </p>
+
+                <div class="extra">
+
+                    This idea became the foundation of the modern periodic table.
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item right">
+
+            <div class="timeline-content">
+
+                <div class="year">Today</div>
+
+                <h3>Modern Periodic Table</h3>
+
+                <p>
+
+                    Scientists have identified 118 elements.
+
+                    The table now contains 18 groups, 7 periods and continues to expand as new elements are synthesized.
+
+                </p>
+
+                <div class="extra">
+
+                    🚀 Chemistry is still evolving.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- INTERACTIVE PERIODIC TABLE -->
+<!-- ========================================= -->
+
+<section id="periodic-table" class="periodic-table">
+
+    <div class="section-title">
+
+        <p>Explore</p>
+
+        <h2>Modern Periodic Table</h2>
+
+        <div class="section-subtitle">
+
+            Hover over any element to view its basic information.
+            Click an element to explore more details and understand its position,
+            electronic configuration, and properties.
+
+        </div>
+
+    </div>
+
+    <div class="table-controls">
+
+        <input
+            type="text"
+            id="elementSearch"
+            placeholder="Search element by name or symbol...">
+
+    </div>
+<div class="periodic-wrapper">
+    <div id="periodicTable"></div>
+</div>
+    <!-- ========================================= -->
+<!-- Element Information Panel -->
+<!-- ========================================= -->
+
+<div id="elementPanel">
+
+    <button id="closePanel">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="panelHeader">
+
+        <div id="elementNumber">
+            1
+        </div>
+
+        <div>
+
+            <h1 id="elementSymbol">H</h1>
+
+            <h2 id="elementName">
+                Hydrogen
+            </h2>
+
+        </div>
+
+    </div>
+
+    <div class="panelGrid">
+
+        <div class="infoBox">
+
+            <span>Group</span>
+
+            <h3 id="infoGroup">1</h3>
+
+        </div>
+
+        <div class="infoBox">
+
+            <span>Period</span>
+
+            <h3 id="infoPeriod">1</h3>
+
+        </div>
+
+        <div class="infoBox">
+
+            <span>Category</span>
+
+            <h3 id="infoCategory">Non-metal</h3>
+
+        </div>
+
+        <div class="infoBox">
+
+            <span>Electron Configuration</span>
+
+            <h3 id="infoElectron">1s¹</h3>
+
+        </div>
+
+    </div>
+
+    <div class="panelDescription">
+
+        <h3>About this Element</h3>
+
+        <p id="infoDescription">
+
+            Select an element to view information.
+
+        </p>
+
+    </div>
+
+</div>
+</section>
+<!-- ========================================= -->
+<!-- GROUPS AND PERIODS -->
+<!-- ========================================= -->
+
+<section class="groups-periods">
+
+    <div class="section-title">
+
+        <p>Understanding the Table</p>
+
+        <h2>Groups and Periods</h2>
+
+    </div>
+
+    <div class="gp-grid">
+
+        <div class="gp-card">
+
+            <div class="gp-icon">
+                <i class="fa-solid fa-grip-lines-vertical"></i>
+            </div>
+
+            <h3>Groups</h3>
+
+            <p>
+
+                The vertical columns of the periodic table are called
+                <b>Groups</b>.
+
+            </p>
+
+            <ul>
+
+                <li>There are <b>18 Groups</b>.</li>
+
+                <li>Elements in the same group have similar chemical properties.</li>
+
+                <li>They have the same number of valence electrons.</li>
+
+                <li>Reactivity changes as we move down a group.</li>
+
+            </ul>
+
+            <div class="study-tip">
+
+                💡 <b>Memory Tip:</b>
+
+                Think of Groups as <b>Vertical Families</b>.
+
+            </div>
+
+        </div>
+
+        <div class="gp-card">
+
+            <div class="gp-icon">
+                <i class="fa-solid fa-grip-lines"></i>
+            </div>
+
+            <h3>Periods</h3>
+
+            <p>
+
+                The horizontal rows of the periodic table are called
+                <b>Periods</b>.
+
+            </p>
+
+            <ul>
+
+                <li>There are <b>7 Periods</b>.</li>
+
+                <li>All elements in a period have the same number of electron shells.</li>
+
+                <li>Properties change gradually from left to right.</li>
+
+                <li>Atomic number increases across a period.</li>
+
+            </ul>
+
+            <div class="study-tip">
+
+                💡 <b>Memory Tip:</b>
+
+                Periods are <b>Horizontal Rows</b>.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- ELECTRONIC CONFIGURATION -->
+<!-- ========================================= -->
+
+<section class="electronic-config">
+
+    <div class="section-title">
+
+        <p>Electronic Configuration</p>
+
+        <h2>Electron Arrangement in Atoms</h2>
+
+        <div class="section-subtitle">
+
+            Electrons are arranged in different energy levels called shells.
+            The electronic configuration of an atom helps us determine its group,
+            period and chemical properties.
+
+        </div>
+
+    </div>
+
+    <div class="config-grid">
+
+        <div class="config-card">
+
+            <h3>📖 What is Electronic Configuration?</h3>
+
+            <p>
+
+                Electronic configuration is the arrangement of electrons in the
+                different shells (K, L, M, N...) around the nucleus of an atom.
+
+            </p>
+
+            <div class="study-tip">
+
+                💡 Electrons always fill the inner shells before moving to outer shells.
+
+            </div>
+
+        </div>
+
+        <div class="config-card">
+
+            <h3>⚛ Maximum Electrons in Each Shell</h3>
+
+            <table class="shell-table">
+
+                <tr>
+                    <th>Shell</th>
+                    <th>Name</th>
+                    <th>Maximum Electrons</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>K</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>L</td>
+                    <td>8</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>M</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>N</td>
+                    <td>32</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Worked Example</h3>
+
+        <p>
+
+            <strong>Sodium (Na)</strong>
+
+        </p>
+
+        <p>
+
+            Atomic Number = <strong>11</strong>
+
+        </p>
+
+        <p>
+
+            Electronic Configuration =
+
+            <span class="config-highlight">
+
+                2, 8, 1
+
+            </span>
+
+        </p>
+
+        <ul>
+
+            <li>Number of Shells = <strong>3</strong> → Period 3</li>
+
+            <li>Valence Electrons = <strong>1</strong> → Group 1</li>
+
+        </ul>
+
+        <div class="study-tip">
+
+            📝 <b>Exam Shortcut</b>
+
+            Group = Valence Electrons
+
+            <br><br>
+
+            Period = Number of Occupied Shells
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- FIND GROUP & PERIOD -->
+<!-- ========================================= -->
+
+<section class="finder">
+
+    <div class="section-title">
+
+        <p>Practice</p>
+
+        <h2>Find the Group & Period</h2>
+
+        <div class="section-subtitle">
+
+            Enter an electronic configuration using commas (for example: <b>2,8,7</b> or <b>2,8,8,1</b>) and let the website determine the Group and Period.
+
+        </div>
+
+    </div>
+
+    <div class="finder-card">
+
+        <input
+            type="text"
+            id="configInput"
+            placeholder="Example: 2,8,7">
+
+        <button id="checkConfig">
+
+            Find Group & Period
+
+        </button>
+
+        <div id="finderResult">
+
+            Enter an electronic configuration above and press the button.
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Quick Revision Rules</h3>
+
+        <ul>
+
+            <li>✅ Period = Number of occupied shells</li>
+
+            <li>✅ Valence Electrons = Electrons in the last shell</li>
+
+            <li>✅ Group 1–2 → Valence electrons = Group number</li>
+
+            <li>✅ Group 13–18 → Group = Valence electrons + 10 (for main-group elements)</li>
+
+            <li>⚠️ Helium is an exception. It has 2 valence electrons but belongs to Group 18.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- ELECTRONIC CONFIGURATION AS THE BASIS -->
+<!-- ========================================= -->
+
+<section class="basis-section">
+
+    <div class="section-title">
+
+        <p>Core Concept</p>
+
+        <h2>Electronic Configuration: The Basis of the Periodic Table</h2>
+
+        <div class="section-subtitle">
+
+            The arrangement of electrons is the foundation of the modern
+            periodic table. It determines an element's position, properties,
+            and chemical behaviour.
+
+        </div>
+
+    </div>
+
+    <div class="basis-grid">
+
+        <div class="basis-card">
+
+            <h3>⚛ Why is it Important?</h3>
+
+            <p>
+
+                The electronic configuration tells us
+
+            </p>
+
+            <ul>
+
+                <li>Which period an element belongs to.</li>
+
+                <li>Which group it belongs to.</li>
+
+                <li>Its valence electrons.</li>
+
+                <li>Its chemical properties.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="basis-card">
+
+            <h3>👨‍👩‍👧 Why Elements in the Same Group are Similar</h3>
+
+            <p>
+
+                Elements in the same group have the same number of
+                valence electrons.
+
+                Therefore they usually behave in similar ways during
+                chemical reactions.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Example: Group 1 Elements</h3>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Element</th>
+
+                <th>Electronic Configuration</th>
+
+                <th>Valence Electrons</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Lithium (Li)</td>
+
+                <td>2,1</td>
+
+                <td>1</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Sodium (Na)</td>
+
+                <td>2,8,1</td>
+
+                <td>1</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Potassium (K)</td>
+
+                <td>2,8,8,1</td>
+
+                <td>1</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <h3>🧪 Sodium</h3>
+
+            <p>
+
+                Sodium has one electron in its outermost shell.
+
+                It easily loses this electron to form
+
+            </p>
+
+            <h2>
+
+                Na → Na⁺ + e⁻
+
+            </h2>
+
+        </div>
+
+        <div class="property-card">
+
+            <h3>🧪 Chlorine</h3>
+
+            <p>
+
+                Chlorine has seven electrons in its outer shell.
+
+                It gains one electron to form
+
+            </p>
+
+            <h2>
+
+                Cl + e⁻ → Cl⁻
+
+            </h2>
+
+        </div>
+
+    </div>
+
+    <div class="study-tip">
+
+        💡 <b>Remember</b>
+
+        <br><br>
+
+        Same outer-shell electrons
+
+        →
+
+        Same Group
+
+        →
+
+        Similar Chemical Properties
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- EXCEPTIONS IN THE PERIODIC TABLE -->
+<!-- ========================================= -->
+
+<section class="exceptions">
+
+    <div class="section-title">
+
+        <p>Special Cases</p>
+
+        <h2>Exceptions in the Periodic Table</h2>
+
+        <div class="section-subtitle">
+
+            Most elements follow the rules of the periodic table, but a few
+            important exceptions exist because their chemical properties are
+            different from what their electronic configuration alone suggests.
+
+        </div>
+
+    </div>
+
+    <div class="exception-grid">
+
+        <div class="exception-card">
+
+            <div class="exception-icon">⚛</div>
+
+            <h3>Hydrogen (H)</h3>
+
+            <p>
+
+                Hydrogen has only <strong>one valence electron</strong>,
+                so it is placed in <strong>Group 1</strong>.
+
+            </p>
+
+            <ul>
+
+                <li>It is a <b>non-metal</b>.</li>
+
+                <li>Like alkali metals, it can lose one electron.</li>
+
+                <li>Like halogens, it can also gain one electron.</li>
+
+                <li>Its properties resemble both groups, but it is placed in Group 1 because most of its characteristics are closer to the alkali metals.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="exception-card">
+
+            <div class="exception-icon">🎈</div>
+
+            <h3>Helium (He)</h3>
+
+            <p>
+
+                Helium has the electronic configuration <b>1s²</b>.
+
+            </p>
+
+            <ul>
+
+                <li>Its outer shell is completely filled.</li>
+
+                <li>According to configuration alone, it might seem to belong to Group 2.</li>
+
+                <li>However, it behaves like the noble gases.</li>
+
+                <li>Therefore, it is placed in <strong>Group 18</strong>.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="exception-card">
+
+            <div class="exception-icon">🧪</div>
+
+            <h3>Lanthanides & Actinides</h3>
+
+            <p>
+
+                These elements actually belong to Periods 6 and 7.
+
+            </p>
+
+            <ul>
+
+                <li>They are called the inner transition elements.</li>
+
+                <li>If placed inside the main table, it would become too wide.</li>
+
+                <li>Therefore, they are displayed separately below the periodic table.</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Remember These Exceptions</h3>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Element</th>
+                <th>Expected Position</th>
+                <th>Actual Position</th>
+                <th>Reason</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Hydrogen</td>
+                <td>Can resemble Groups 1 & 17</td>
+                <td>Group 1</td>
+                <td>Mostly behaves like alkali metals</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Helium</td>
+                <td>Group 2</td>
+                <td>Group 18</td>
+                <td>Chemically inert like noble gases</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Lanthanides & Actinides</td>
+                <td>Main Table</td>
+                <td>Below the Table</td>
+                <td>To keep the table compact and readable</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- ATOMIC RADIUS -->
+<!-- ========================================= -->
+
+<section id="properties" class="property-section">
+
+    <div class="section-title">
+
+        <p>Periodic Properties</p>
+
+        <h2>Atomic Radius</h2>
+
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <h3>📖 Definition</h3>
+
+            <p>
+
+                Atomic radius is the distance from the nucleus to the outermost
+                electron shell. It gives an idea of the size of an atom.
+
+            </p>
+
+        </div>
+
+        <div class="property-card">
+
+            <h3>💡 Simple Explanation</h3>
+
+            <p>
+
+                Imagine an atom as a house.
+
+                More electron shells mean a bigger house.
+
+                Fewer shells mean a smaller house.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="trend-box">
+
+        <h3>Trend in the Periodic Table</h3>
+
+        <div class="trend-grid">
+
+            <div class="trend-card">
+
+                <h4>➡ Across a Period</h4>
+
+                <p>
+
+                    Atomic radius <b>decreases</b> from left to right.
+
+                </p>
+
+                <div class="trend-arrow decrease">
+
+                    ⬅ Smaller
+
+                </div>
+
+            </div>
+
+            <div class="trend-card">
+
+                <h4>⬇ Down a Group</h4>
+
+                <p>
+
+                    Atomic radius <b>increases</b> from top to bottom.
+
+                </p>
+
+                <div class="trend-arrow increase">
+
+                    ⬇ Larger
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Why Does This Happen?</h3>
+
+        <ul>
+
+            <li>
+
+                Across a period, the number of protons increases.
+
+            </li>
+
+            <li>
+
+                The stronger positive charge pulls electrons closer to the nucleus.
+
+            </li>
+
+            <li>
+
+                Therefore, the atom becomes smaller.
+
+            </li>
+
+            <br>
+
+            <li>
+
+                Down a group, new electron shells are added.
+
+            </li>
+
+            <li>
+
+                More shells make the atom larger.
+
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="study-tip">
+
+        🧠 <b>Memory Trick</b>
+
+        <br><br>
+
+        Across ➜ Attraction increases ➜ Radius decreases
+
+        <br><br>
+
+        Down ➜ More shells ➜ Radius increases
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Exam Tip</h3>
+
+        <p>
+
+            If the exam asks which atom is larger,
+
+            always compare
+
+            <b>number of shells</b>
+
+            first.
+
+        </p>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- IONIZATION ENERGY -->
+<!-- ========================================= -->
+
+<section class="property-section">
+
+    <div class="section-title">
+
+        <p>Periodic Properties</p>
+
+        <h2>Ionization Energy</h2>
+
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <h3>📖 Definition</h3>
+
+            <p>
+
+                Ionization energy is the minimum amount of energy required to remove
+                the outermost electron from an isolated gaseous atom.
+
+            </p>
+
+        </div>
+
+        <div class="property-card">
+
+            <h3>💡 Easy Explanation</h3>
+
+            <p>
+
+                Think of the nucleus as a magnet and the outermost electron as a metal ball.
+                The stronger the magnet pulls, the harder it is to remove the ball.
+                Therefore, more energy is needed.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="trend-box">
+
+        <h3>Trend in the Periodic Table</h3>
+
+        <div class="trend-grid">
+
+            <div class="trend-card">
+
+                <h4>➡ Across a Period</h4>
+
+                <p>
+
+                    Ionization energy <b>increases</b> from left to right.
+
+                </p>
+
+                <div class="trend-arrow increase">
+
+                    ➡ Higher
+
+                </div>
+
+            </div>
+
+            <div class="trend-card">
+
+                <h4>⬇ Down a Group</h4>
+
+                <p>
+
+                    Ionization energy <b>decreases</b> from top to bottom.
+
+                </p>
+
+                <div class="trend-arrow decrease">
+
+                    ⬇ Lower
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Why Does This Happen?</h3>
+
+        <ul>
+
+            <li>Across a period, atomic radius decreases.</li>
+
+            <li>The nucleus attracts the outer electrons more strongly.</li>
+
+            <li>More energy is required to remove an electron.</li>
+
+            <br>
+
+            <li>Down a group, more electron shells are added.</li>
+
+            <li>The outermost electron is farther from the nucleus.</li>
+
+            <li>It is easier to remove the electron.</li>
+
+        </ul>
+
+    </div>
+
+    <div class="study-tip">
+
+        🧠 <b>Memory Trick</b>
+
+        <br><br>
+
+        Smaller Atom → Stronger Attraction → Higher Ionization Energy
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Exam Tip</h3>
+
+        <p>
+
+            Atomic radius and ionization energy are generally opposite trends.
+
+        </p>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Property</th>
+
+                <th>Across a Period</th>
+
+                <th>Down a Group</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Atomic Radius</td>
+
+                <td>⬇ Decreases</td>
+
+                <td>⬆ Increases</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Ionization Energy</td>
+
+                <td>⬆ Increases</td>
+
+                <td>⬇ Decreases</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- ELECTRON AFFINITY -->
+<!-- ========================================= -->
+
+<section class="property-section">
+
+    <div class="section-title">
+
+        <p>Periodic Properties</p>
+
+        <h2>Electron Affinity</h2>
+
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <h3>📖 Definition</h3>
+
+            <p>
+
+                Electron affinity is the amount of energy released when a neutral
+                gaseous atom gains an electron to form a negative ion (anion).
+
+            </p>
+
+        </div>
+
+        <div class="property-card">
+
+            <h3>💡 Easy Explanation</h3>
+
+            <p>
+
+                Imagine atoms are trying to catch an extra ball (electron).
+                Some atoms grab the ball very eagerly, while others are less
+                interested. The stronger an atom attracts an extra electron,
+                the higher its electron affinity.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="trend-box">
+
+        <h3>Periodic Trend</h3>
+
+        <div class="trend-grid">
+
+            <div class="trend-card">
+
+                <h4>➡ Across a Period</h4>
+
+                <p>
+
+                    Electron affinity generally <strong>increases</strong>
+                    from left to right.
+
+                </p>
+
+                <div class="trend-arrow increase">
+
+                    ➡ More Energy Released
+
+                </div>
+
+            </div>
+
+            <div class="trend-card">
+
+                <h4>⬇ Down a Group</h4>
+
+                <p>
+
+                    Electron affinity generally <strong>decreases</strong>
+                    from top to bottom.
+
+                </p>
+
+                <div class="trend-arrow decrease">
+
+                    ⬇ Less Energy Released
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Why Does This Happen?</h3>
+
+        <ul>
+
+            <li>Across a period, atoms become smaller.</li>
+
+            <li>The nucleus attracts an incoming electron more strongly.</li>
+
+            <li>Therefore, more energy is released.</li>
+
+            <br>
+
+            <li>Down a group, atomic size increases.</li>
+
+            <li>The incoming electron is farther from the nucleus.</li>
+
+            <li>So less energy is released.</li>
+
+        </ul>
+
+    </div>
+
+    <div class="study-tip">
+
+        🧠 <strong>Memory Trick</strong>
+
+        <br><br>
+
+        Smaller atoms grab extra electrons more strongly.
+
+        <br><br>
+
+        Small Atom → Strong Attraction → High Electron Affinity
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Examples</h3>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Element</th>
+                <th>Electron Affinity</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Chlorine (Cl)</td>
+                <td>Very High</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Fluorine (F)</td>
+                <td>Very High</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Neon (Ne)</td>
+                <td>Almost Zero</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Important Notes</h3>
+
+        <ul>
+
+            <li>⭐ Halogens have very high electron affinity.</li>
+
+            <li>⭐ Noble gases have almost no electron affinity because their outer shell is already complete.</li>
+
+            <li>⭐ Electron affinity helps explain why non-metals easily gain electrons.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- ELECTRONEGATIVITY -->
+<!-- ========================================= -->
+
+<section class="property-section">
+
+    <div class="section-title">
+
+        <p>Periodic Properties</p>
+
+        <h2>Electronegativity</h2>
+
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <h3>📖 Definition</h3>
+
+            <p>
+
+                Electronegativity is the tendency of an atom to attract the shared
+                electrons of a chemical bond towards itself.
+
+            </p>
+
+        </div>
+
+        <div class="property-card">
+
+            <h3>💡 Easy Explanation</h3>
+
+            <p>
+
+                Imagine two children pulling a rope. The child who pulls the rope
+                harder is like the atom with higher electronegativity—it attracts
+                the shared electrons more strongly.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="trend-box">
+
+        <h3>Trend in the Periodic Table</h3>
+
+        <div class="trend-grid">
+
+            <div class="trend-card">
+
+                <h4>➡ Across a Period</h4>
+
+                <p>
+
+                    Electronegativity <b>increases</b> from left to right.
+
+                </p>
+
+                <div class="trend-arrow increase">
+
+                    ➡ Higher
+
+                </div>
+
+            </div>
+
+            <div class="trend-card">
+
+                <h4>⬇ Down a Group</h4>
+
+                <p>
+
+                    Electronegativity <b>decreases</b> from top to bottom.
+
+                </p>
+
+                <div class="trend-arrow decrease">
+
+                    ⬇ Lower
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Why Does This Happen?</h3>
+
+        <ul>
+
+            <li>Across a period, atoms become smaller.</li>
+
+            <li>The nucleus attracts bonding electrons more strongly.</li>
+
+            <li>Therefore, electronegativity increases.</li>
+
+            <br>
+
+            <li>Down a group, atomic size increases.</li>
+
+            <li>The bonding electrons are farther from the nucleus.</li>
+
+            <li>So electronegativity decreases.</li>
+
+        </ul>
+
+    </div>
+
+    <div class="study-tip">
+
+        🧠 <b>Memory Trick</b>
+
+        <br><br>
+
+        The smaller the atom, the stronger it pulls shared electrons.
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Important Facts</h3>
+
+        <ul>
+
+            <li>⭐ Fluorine (F) has the highest electronegativity.</li>
+
+            <li>⭐ Noble gases usually have little or no electronegativity because they rarely form bonds.</li>
+
+            <li>⭐ Metals generally have low electronegativity, while non-metals have high electronegativity.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- METALLIC & NON-METALLIC CHARACTER -->
+<!-- ========================================= -->
+
+<section class="property-section">
+
+    <div class="section-title">
+
+        <p>Periodic Properties</p>
+
+        <h2>Metallic & Non-metallic Character</h2>
+
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+
+            <h3>🟦 Metallic Character</h3>
+
+            <p>
+
+                Metallic character is the tendency of an atom to lose electrons
+                and form positive ions (cations).
+
+            </p>
+
+            <h4>Trend</h4>
+
+            <ul>
+
+                <li>➡ Decreases from left to right across a period.</li>
+
+                <li>⬇ Increases from top to bottom in a group.</li>
+
+            </ul>
+
+            <div class="study-tip">
+
+                💡 Large atoms lose electrons more easily, so they are more metallic.
+
+            </div>
+
+        </div>
+
+        <div class="property-card">
+
+            <h3>🟩 Non-metallic Character</h3>
+
+            <p>
+
+                Non-metallic character is the tendency of an atom to gain
+                electrons and form negative ions (anions).
+
+            </p>
+
+            <h4>Trend</h4>
+
+            <ul>
+
+                <li>➡ Increases from left to right across a period.</li>
+
+                <li>⬇ Decreases from top to bottom in a group.</li>
+
+            </ul>
+
+            <div class="study-tip">
+
+                💡 Small atoms attract electrons more strongly, making them more non-metallic.
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Why Do These Trends Occur?</h3>
+
+        <p>
+
+            As you move across a period, atoms become smaller and hold their
+            electrons more tightly. This makes it difficult to lose electrons
+            but easier to gain them. Therefore, metallic character decreases
+            while non-metallic character increases.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            Down a group, atoms become larger because new electron shells are
+            added. The outermost electrons are farther from the nucleus, making
+            them easier to lose. As a result, metallic character increases while
+            non-metallic character decreases.
+
+        </p>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Examples</h3>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Property</th>
+
+                <th>Example</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Most Metallic Element</td>
+
+                <td>Francium (Fr)</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Most Non-metallic Element</td>
+
+                <td>Fluorine (F)</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="study-tip">
+
+        🧠 <b>Memory Trick</b>
+
+        <br><br>
+
+        Metals like to <b>Lose</b> electrons.
+
+        <br>
+
+        Non-metals like to <b>Gain</b> electrons.
+
+        <br><br>
+
+        <b>Lose → Metal</b>
+
+        <br>
+
+        <b>Gain → Non-metal</b>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- SPECIAL GROUPS OF THE PERIODIC TABLE -->
+<!-- ========================================= -->
+
+<section class="special-groups">
+
+    <div class="section-title">
+
+        <p>Important Families</p>
+
+        <h2>Special Groups of the Periodic Table</h2>
+
+        <div class="section-subtitle">
+
+            Elements in the same group have similar electronic configurations and
+            therefore show similar chemical properties.
+
+        </div>
+
+    </div>
+
+    <div class="special-grid">
+
+        <div class="special-card">
+
+            <span class="group-tag">Group 1</span>
+
+            <h3>🟠 Alkali Metals</h3>
+
+            <ul>
+
+                <li>Have 1 valence electron.</li>
+                <li>Very reactive.</li>
+                <li>Soft metals.</li>
+                <li>React vigorously with water.</li>
+                <li>Examples: Li, Na, K.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="special-card">
+
+            <span class="group-tag">Group 2</span>
+
+            <h3>🟡 Alkaline Earth Metals</h3>
+
+            <ul>
+
+                <li>Have 2 valence electrons.</li>
+                <li>Reactive but less than Group 1.</li>
+                <li>Harder and denser than alkali metals.</li>
+                <li>Examples: Be, Mg, Ca.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="special-card">
+
+            <span class="group-tag">Groups 3–12</span>
+
+            <h3>🔵 Transition Metals</h3>
+
+            <ul>
+
+                <li>Good conductors of heat and electricity.</li>
+                <li>Strong and hard.</li>
+                <li>Can form coloured compounds.</li>
+                <li>Many are used as catalysts.</li>
+                <li>Examples: Fe, Cu, Ag.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="special-card">
+
+            <span class="group-tag">Group 17</span>
+
+            <h3>🟢 Halogens</h3>
+
+            <ul>
+
+                <li>Have 7 valence electrons.</li>
+                <li>Highly reactive non-metals.</li>
+                <li>Usually form salts with metals.</li>
+                <li>Examples: F, Cl, Br, I.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="special-card">
+
+            <span class="group-tag">Group 18</span>
+
+            <h3>🟣 Noble Gases</h3>
+
+            <ul>
+
+                <li>Complete outermost shell.</li>
+                <li>Very stable.</li>
+                <li>Almost chemically inert.</li>
+                <li>Examples: He, Ne, Ar.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="special-card">
+
+            <span class="group-tag">f-Block</span>
+
+            <h3>⚪ Lanthanides & Actinides</h3>
+
+            <ul>
+
+                <li>Located below the main table.</li>
+                <li>Known as inner transition elements.</li>
+                <li>Lanthanides are mostly rare earth metals.</li>
+                <li>Most actinides are radioactive.</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="example-box">
+
+        <h3>Quick Revision</h3>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Group</th>
+                <th>Family</th>
+                <th>Valence Electrons</th>
+
+            </tr>
+
+            <tr>
+
+                <td>1</td>
+                <td>Alkali Metals</td>
+                <td>1</td>
+
+            </tr>
+
+            <tr>
+
+                <td>2</td>
+                <td>Alkaline Earth Metals</td>
+                <td>2</td>
+
+            </tr>
+
+            <tr>
+
+                <td>17</td>
+                <td>Halogens</td>
+                <td>7</td>
+
+            </tr>
+
+            <tr>
+
+                <td>18</td>
+                <td>Noble Gases</td>
+                <td>8 (He = 2)</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- REACTIONS OF ELEMENTS IN THE SAME GROUP -->
+<!-- ========================================= -->
+
+<section class="group-reactions">
+
+    <div class="section-title">
+
+        <p>Chemical Behaviour</p>
+
+        <h2>Reactions of Elements in the Same Group</h2>
+
+        <div class="section-subtitle">
+
+            Elements belonging to the same group usually have the same number of
+            valence electrons. Because of this, they show very similar chemical
+            reactions.
+
+        </div>
+
+    </div>
+
+    <!-- Halogens -->
+
+    <div class="reaction-card">
+
+        <h3>🟢 Halogens (Group 17)</h3>
+
+        <p>
+
+            Halogens react with hydrogen to produce hydrogen halides.
+
+        </p>
+
+<pre class="reaction-box">
+H₂ + F₂  →  2HF
+
+H₂ + Cl₂ → 2HCl
+
+H₂ + Br₂ → 2HBr
+
+H₂ + I₂  → 2HI
+</pre>
+
+        <p>
+
+            When these gases dissolve in water they produce acids.
+
+        </p>
+
+<pre class="reaction-box">
+HF  + H₂O → Hydrofluoric Acid
+
+HCl + H₂O → Hydrochloric Acid
+
+HBr + H₂O → Hydrobromic Acid
+
+HI  + H₂O → Hydroiodic Acid
+</pre>
+
+    </div>
+
+    <!-- Carbonate Reaction -->
+
+    <div class="reaction-card">
+
+        <h3>⚗ Reaction with Carbonates</h3>
+
+        <p>
+
+            These acids react with carbonate compounds to produce carbon dioxide gas.
+
+        </p>
+
+<pre class="reaction-box">
+CaCO₃ + 2HCl
+
+↓
+
+CaCl₂ + H₂O + CO₂ ↑
+</pre>
+
+        <div class="study-tip">
+
+            💡 Carbon dioxide gas is released.
+
+        </div>
+
+    </div>
+
+    <!-- Group Comparison -->
+
+    <div class="reaction-card">
+
+        <h3>📊 Comparing Similar Reactions</h3>
+
+        <table class="shell-table">
+
+            <tr>
+
+                <th>Element</th>
+
+                <th>Reaction Pattern</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Fluorine</td>
+
+                <td>Forms HF</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Chlorine</td>
+
+                <td>Forms HCl</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Bromine</td>
+
+                <td>Forms HBr</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Iodine</td>
+
+                <td>Forms HI</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <!-- Explanation -->
+
+    <div class="example-box">
+
+        <h3>Why are the Reactions Similar?</h3>
+
+        <p>
+
+            Every halogen has <strong>7 valence electrons</strong>.
+            They all need just one more electron to complete their outer shell.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            Therefore, all halogens react with hydrogen in nearly the same way,
+            producing hydrogen halides.
+
+        </p>
+
+    </div>
+
+    <div class="study-tip">
+
+        🧠 <strong>Remember</strong>
+
+        <br><br>
+
+        Same Group
+
+        →
+
+        Same Valence Electrons
+
+        →
+
+        Similar Chemical Behaviour
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- IMPORTANCE OF THE PERIODIC TABLE -->
+<!-- ========================================= -->
+
+<section class="importance">
+
+    <div class="section-title">
+
+        <p>Applications</p>
+
+        <h2>Importance of the Periodic Table</h2>
+
+        <div class="section-subtitle">
+
+            The periodic table is more than just a chart of elements. It helps scientists,
+            students, engineers, and researchers understand the behavior of matter.
+
+        </div>
+
+    </div>
+
+    <div class="importance-grid">
+
+        <div class="importance-card">
+
+            <div class="importance-icon">🔍</div>
+
+            <h3>Predict Properties</h3>
+
+            <p>
+
+                Elements in the same group have similar properties. This helps scientists
+                predict the behavior of newly discovered or less familiar elements.
+
+            </p>
+
+        </div>
+
+        <div class="importance-card">
+
+            <div class="importance-icon">⚗️</div>
+
+            <h3>Understand Chemical Reactions</h3>
+
+            <p>
+
+                The position of an element helps explain how easily it reacts and what
+                compounds it is likely to form.
+
+            </p>
+
+        </div>
+
+        <div class="importance-card">
+
+            <div class="importance-icon">🧪</div>
+
+            <h3>Study Trends</h3>
+
+            <p>
+
+                Trends such as atomic radius, ionization energy and electronegativity
+                become easy to understand using the periodic table.
+
+            </p>
+
+        </div>
+
+        <div class="importance-card">
+
+            <div class="importance-icon">🌍</div>
+
+            <h3>Everyday Uses</h3>
+
+            <p>
+
+                From medicines and fertilizers to electronics and construction,
+                knowledge of the periodic table is essential in daily life.
+
+            </p>
+
+        </div>
+
+        <div class="importance-card">
+
+            <div class="importance-icon">🚀</div>
+
+            <h3>Scientific Research</h3>
+
+            <p>
+
+                Scientists use the periodic table to discover new elements and develop
+                new materials with useful properties.
+
+            </p>
+
+        </div>
+
+        <div class="importance-card">
+
+            <div class="importance-icon">📚</div>
+
+            <h3>Learning Chemistry</h3>
+
+            <p>
+
+                The periodic table organizes chemistry into a logical system, making it
+                much easier to study and remember.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================= -->
+<!-- CHAPTER SUMMARY -->
+<!-- ========================================= -->
+
+<section class="summary">
+
+    <div class="section-title">
+
+        <p>Quick Revision</p>
+
+        <h2>Chapter Summary</h2>
+
+    </div>
+
+    <div class="summary-box">
+
+        <ul>
+
+            <li>✅ Modern periodic table contains <b>118 elements</b>.</li>
+
+            <li>✅ There are <b>18 groups</b> and <b>7 periods</b>.</li>
+
+            <li>✅ Group = Same valence electrons.</li>
+
+            <li>✅ Period = Same number of electron shells.</li>
+
+            <li>✅ Atomic radius decreases across a period and increases down a group.</li>
+
+            <li>✅ Ionization energy increases across a period and decreases down a group.</li>
+
+            <li>✅ Electronegativity increases across a period and decreases down a group.</li>
+
+            <li>✅ Metallic character decreases across a period and increases down a group.</li>
+
+            <li>✅ Non-metallic character shows the opposite trend.</li>
+
+            <li>✅ Noble gases are the least reactive elements.</li>
+
+            <li>✅ Halogens are highly reactive non-metals.</li>
+
+            <li>✅ Alkali metals are highly reactive metals.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+
+</html>
